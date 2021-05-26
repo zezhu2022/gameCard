@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Mario",
+        "rarity": "rare",
+        "img": "https://mario.nintendo.com/static/fd723b2893d4d2b39ef71bfdb4e3329c/579b4/mario-background.png"
+    },
+    {
+        "name": "Goomba",
+        "rarity": "common",
+        "img": "https://mario.wiki.gallery/images/b/b9/Goomba_Stack_SM3DL.png"
+    },
+    {
+        "name": "Luigi",
+        "rarity": "rare",
+        "img": "https://play.nintendo.com/images/Masthead_luigi.17345b1513ac044897cfc243542899dce541e8dc.9afde10b.png"
+    },
+    {
+        "name": "Toad",
+        "rarity": "common",
+        "img": "https://upload.wikimedia.org/wikipedia/en/d/d1/Toad_3D_Land.png"
+    },
+    {
+        "name": "bowser",
+        "rarity": "rare",
+        "img": "https://miro.medium.com/max/6064/1*x2Gw1gKrRQi5WEcBrKYA1g.png"
+    }
+
+]

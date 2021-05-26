@@ -1,22 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import cards from './config/data.json'
+import CardCollection from './components/cardCollection'
+import { useState } from 'react';
+import './CardCollection.css'
+
 
 function App() {
+  const [numCards, setNumCards] = useState(0);
+
+  function updateCount(){
+    setNumCards(numCards + 1)
+  }
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1> Card Collection game</h1>
+        <button onClick={updateCount}> get a new card!</button>
+        <CardCollection cards={cards} numCards={numCards}/>
       </header>
     </div>
   );
