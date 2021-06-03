@@ -2,11 +2,10 @@ import {React, useState} from 'react';
 import Card from './card.js'
 import '../CardCollection.css'
 function CardCollection(props) {
-    const cards = props.cards
+    const cards = Array(100).fill()
     const numCards = props.numCards
     const cardsCollection = {
         flex: 1,
-        // flex-direction: 'row'
       }
 
 
@@ -15,7 +14,7 @@ function CardCollection(props) {
         {cards.map((card, index) => {
             if (numCards > index){
                 return(
-                <Card character={card}/>
+                <Card />
             )}
             else{
                 return null

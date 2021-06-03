@@ -1,28 +1,112 @@
 [
     {
-        "name": "Mario",
-        "rarity": "rare",
-        "img": "https://mario.nintendo.com/static/fd723b2893d4d2b39ef71bfdb4e3329c/579b4/mario-background.png"
-    },
-    {
-        "name": "Goomba",
+        "name": "Atreus",
+        "game": "God of War 4",
         "rarity": "common",
-        "img": "https://mario.wiki.gallery/images/b/b9/Goomba_Stack_SM3DL.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/gamecards-13d2a.appspot.com/o/Atreus.jpg?alt=media&token=69126e00-a8c7-40ca-99d0-24cf1cb7fb4d"
     },
     {
-        "name": "Luigi",
-        "rarity": "rare",
-        "img": "https://play.nintendo.com/images/Masthead_luigi.17345b1513ac044897cfc243542899dce541e8dc.9afde10b.png"
-    },
-    {
-        "name": "Toad",
+        "name": "GLaDOS",
+        "game": "Portal",
         "rarity": "common",
-        "img": "https://upload.wikimedia.org/wikipedia/en/d/d1/Toad_3D_Land.png"
-    },
-    {
-        "name": "bowser",
-        "rarity": "rare",
-        "img": "https://miro.medium.com/max/6064/1*x2Gw1gKrRQi5WEcBrKYA1g.png"
-    }
+        "img": "https://firebasestorage.googleapis.com/v0/b/gamecards-13d2a.appspot.com/o/GLaDOS.jpeg?alt=media&token=d9508e01-c17a-48ef-bdda-44324d7e64cb"
 
+    },
+    {
+        "name": "Hoxton",
+        "game": "Payday 2",
+        "rarity": "common",
+        "img": "https://firebasestorage.googleapis.com/v0/b/gamecards-13d2a.appspot.com/o/Hoxton.png?alt=media&token=9aaa6430-194b-4c71-83f4-5e76e2b06dc5"
+    },
+    {
+        "name": "Kratos",
+        "game": "God of War 4",
+        "rarity": "rare",
+        "img": "https://firebasestorage.googleapis.com/v0/b/gamecards-13d2a.appspot.com/o/Kratos.png?alt=media&token=daec6713-862d-4271-a900-0c8c60200c11"
+    },
+    {
+        "name": "Lucid",
+        "game": "Maplestory",
+        "rarity": "rare",
+        "img": "https://firebasestorage.googleapis.com/v0/b/gamecards-13d2a.appspot.com/o/Lucid.png?alt=media&token=9be302e5-d5b3-47d0-9faa-cddadbc6e118"
+
+    },
+    {
+        "name": "Madeline",
+        "game": "Celeste",
+        "rarity": "rare",
+        "img": "https://firebasestorage.googleapis.com/v0/b/gamecards-13d2a.appspot.com/o/Madeline.png?alt=media&token=537dfbbc-2a3b-4b35-8c92-9a98f767e6e2"
+    },
+    {
+        "name": "Madeline",
+        "game": "Celeste",
+        "rarity": "common",
+        "img": "https://firebasestorage.googleapis.com/v0/b/gamecards-13d2a.appspot.com/o/Theo.png?alt=media&token=db01dc5c-930e-4e41-a978-cb9f5acc7f0f"
+    },
+    {
+        "name": "Master Chief",
+        "game": "Halo",
+        "rarity": "rare",
+        "img":"https://firebasestorage.googleapis.com/v0/b/gamecards-13d2a.appspot.com/o/MasterChief.jpg?alt=media&token=427bc0ab-021e-401c-89f1-cab66102de54"
+    },
+    {
+        "name": "Sonic",
+        "game": "Sonic",
+        "rarity": "rare",
+        "img": "https://firebasestorage.googleapis.com/v0/b/gamecards-13d2a.appspot.com/o/Sonic.jpg?alt=media&token=7bfba92a-fa71-4f40-a1b2-1da9d8674d93"
+    },
+    {
+        "name": "Unburried",
+        "game": "Kingsway",
+        "rarity": "common",
+        "img": "https://firebasestorage.googleapis.com/v0/b/gamecards-13d2a.appspot.com/o/Unburied.png?alt=media&token=c38a9d75-2144-4054-9707-1547fd6c159e"
+    },
+    {
+        "name": "Witch",
+        "game": "Left for Dead 2",
+        "rarity": "common",
+        "img": "https://firebasestorage.googleapis.com/v0/b/gamecards-13d2a.appspot.com/o/Witch.png?alt=media&token=6001c150-3ae5-4e2b-b1ea-6630c4f174be"
+    },
+    {
+        "name": "Blue Eyes",
+        "game": "Yu-Gi-Oh",
+        "rarity": "rare",
+        "img": "https://firebasestorage.googleapis.com/v0/b/gamecards-13d2a.appspot.com/o/blueEyesWhiteDragon.png?alt=media&token=d72bdbf4-2ac1-4a04-a806-c580cdedcf4a"
+    },
+    {
+        "name": "Charizard",
+        "game": "Pokemon",
+        "rarity": "rare",
+        "img":"https://firebasestorage.googleapis.com/v0/b/gamecards-13d2a.appspot.com/o/charizard.jpg?alt=media&token=9619d21d-b3bb-4f32-a153-90fecb877dd1"
+    },
+    {
+        "name": "Jett",
+        "game": "Valorant",
+        "rarity": "common",
+        "img":"https://firebasestorage.googleapis.com/v0/b/gamecards-13d2a.appspot.com/o/jett.jpg?alt=media&token=e2486486-b5d0-4d3e-8f7b-a5835192f4bd"
+    },
+    {
+        "name": "Mushroom",
+        "game": "Maplestory",
+        "rarity": "common",
+        "img":"https://firebasestorage.googleapis.com/v0/b/gamecards-13d2a.appspot.com/o/mushroom.jpeg?alt=media&token=ddc088c9-0466-41be-b03c-34d95ae9b9f4"
+    },
+    {
+        "name": "Slime Boss",
+        "game": "Slay the Spire",
+        "rarity": "common",
+        "img":"https://firebasestorage.googleapis.com/v0/b/gamecards-13d2a.appspot.com/o/slimeboss.jpg?alt=media&token=5b6146e7-d486-4233-ba90-0573675b06bc"
+    },
+    {
+        "name": "Scout",
+        "game": "Team Fortress 2",
+        "rarity": "rare",
+        "img":"https://firebasestorage.googleapis.com/v0/b/gamecards-13d2a.appspot.com/o/scout.png?alt=media&token=53c2f66b-bc65-4faf-8a71-6e0718843525"
+    },
+    {
+        "name": "Human Spider",
+        "game": "Binding Of Isaac",
+        "rarity": "common",
+        "img":"https://firebasestorage.googleapis.com/v0/b/gamecards-13d2a.appspot.com/o/spider.jpg?alt=media&token=56c56b01-b143-4bcf-9925-7910cdba5547"
+    }
 ]
