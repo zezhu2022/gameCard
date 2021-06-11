@@ -2,19 +2,17 @@ import './App.css';
 import firestore from './firestore'
 import cards from './config/data.json'
 import CardCollection from './components/cardCollection'
+import CardPack from './components/cardPack'
 import { useState } from 'react';
 import './CardCollection.css'
-import { isCompositeComponent } from 'react-dom/test-utils';
 
 
 function App() {
   const [numCards, setNumCards] = useState(0);
-  const db = firestore.firestore()
-  
-  function updateCount() {
-    console.log("this is updating count")
-    setNumCards(numCards + 1)
-  }
+  const [pack, setPack] = useState(false);
+  const [currCards, setCurrCards] = useState([]);
+  const [accountCards, setAccountCards] = useState(false);
+  const db = firestore.firestore();
 
   function createCard() {
     cards.map(card =>{
@@ -25,18 +23,33 @@ function App() {
         img: card.img,
       })
     })
-    console.log("cards have been created")
   }
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1> Card Collection Game</h1>
-        <button onClick={createCard}> CREATE CARD</button>
-        <button onClick={updateCount}> get a new card!</button>
-        <CardCollection cards={cards} numCards={numCards}/>
-      </header>
-    </div>
+
+  function newPack() {
+    setPack(true)
+  }
+  if (!accountCards){
+    return (
+      <div className="App">
+        <header className="App-header">
+          <h1> Card Collection Game</h1>
+          <button onClick={() => setAccountCards(!accountCards)}>Your Collection</button>
+          <button onClick={createCard}> CREATE CARDS (POPULATE)</button>
+          <button onClick={newPack}> drop some cards!</button>
+          <CardPack newCards={pack} prevCards={currCards} addCard={setCurrCards} showCards={setPack}/>
+        </header>
+      </div>
   );
+  }
+  else{
+    return(
+      <div className="App">
+        <h1> YOUR CARDS </h1>
+        <button onClick={() => setAccountCards(!accountCards)}>Go back to collect Cards</button>
+        <CardCollection cards={currCards}/>
+      </div>
+    )
+  }
 }
 
 export default App;

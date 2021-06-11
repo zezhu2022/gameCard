@@ -4,21 +4,13 @@ import {React, useEffect, useState} from 'react';
 
 
 
-function Card() {
-
-    // Taken from the Fisher-Yates (Knuth) Shuffle
-    function getRandomInt(max) {
-        return Math.floor(Math.random() * max);
-      }
-
+function Card(props) {
+    console.log(props)
     function getImage() {
-        console.log("wihtin getImage")
+        console.log("within getImage")
         db.collection('cards').get()
         .then(querySnapshot => {
-            console.log("before shuffle", querySnapshot.size)
-            const index = getRandomInt(querySnapshot.size)
-            setCurrCard(querySnapshot.docs[index].data())
-            // setCurrCard(querySnapshot[0].data())
+            setCurrCard(querySnapshot.docs[props.cIndex].data())
         })}
     
 
