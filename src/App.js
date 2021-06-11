@@ -5,6 +5,7 @@ import CardCollection from './components/cardCollection'
 import CardPack from './components/cardPack'
 import { useState } from 'react';
 import './CardCollection.css'
+import './Buttons.css'
 
 
 function App() {
@@ -33,9 +34,11 @@ function App() {
       <div className="App">
         <header className="App-header">
           <h1> Card Collection Game</h1>
-          <button onClick={() => setAccountCards(!accountCards)}>Your Collection</button>
-          <button onClick={createCard}> CREATE CARDS (POPULATE)</button>
-          <button onClick={newPack}> drop some cards!</button>
+          <div className="Buttons">
+            <button className="button" onClick={() => setAccountCards(!accountCards)}>Your Collection</button>
+            <button className="button" onClick={createCard}> CREATE CARDS (POPULATE)</button>
+            <button className="button" onClick={newPack}> drop some cards!</button>
+          </div>
           <CardPack newCards={pack} prevCards={currCards} addCard={setCurrCards} showCards={setPack}/>
         </header>
       </div>
@@ -44,9 +47,11 @@ function App() {
   else{
     return(
       <div className="App">
-        <h1> YOUR CARDS </h1>
-        <button onClick={() => setAccountCards(!accountCards)}>Go back to collect Cards</button>
-        <CardCollection cards={currCards}/>
+        <header className="App-header">
+          <h1> YOUR CARDS </h1>
+          <button onClick={() => setAccountCards(!accountCards)}>Go back to collect Cards</button>
+          <CardCollection cards={currCards}/>
+        </header>
       </div>
     )
   }

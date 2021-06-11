@@ -18,10 +18,6 @@ function CardPack(props) {
         return Math.floor(Math.random() * max);
       }
 
-    function chooseCard(cardI) {
-        console.log("to be continued")
-        console.log("yes", cardI, document.getElementById(cardI))
-    }
     const handleCardAddition = useCallback(event => {
         props.addCard([...props.prevCards, event.target.id])
         setPickedCard(true)

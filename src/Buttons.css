@@ -1,0 +1,11 @@
+.Buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px
+}
+
+.button {
+    padding: 12px;
+    margin: 24px
+}
